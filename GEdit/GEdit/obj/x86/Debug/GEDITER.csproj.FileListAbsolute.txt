@@ -1,0 +1,16 @@
+C:\Users\Greg\Desktop\New folder (4)\GEDITER\GEDITER\obj\x86\Debug\GEdit.Form1.resources
+C:\Users\Greg\Desktop\New folder (4)\GEDITER\GEDITER\obj\x86\Debug\GEDITER.Properties.Resources.resources
+C:\Users\Greg\Desktop\New folder (4)\GEDITER\GEDITER\obj\x86\Debug\GEDITER.csproj.GenerateResource.Cache
+C:\Users\Greg\Desktop\New folder (4)\GEDITER\GEDITER\bin\Debug\GEDITER.exe
+C:\Users\Greg\Desktop\New folder (4)\GEDITER\GEDITER\bin\Debug\GEDITER.pdb
+C:\Users\Greg\Desktop\New folder (4)\GEDITER\GEDITER\bin\Debug\FastColoredTextBox.dll
+C:\Users\Greg\Desktop\New folder (4)\GEDITER\GEDITER\obj\x86\Debug\GEDITER.exe
+C:\Users\Greg\Desktop\New folder (4)\GEDITER\GEDITER\obj\x86\Debug\GEDITER.pdb
+C:\Users\Greg\Desktop\GEDITER\GEDITER\bin\Debug\GEDITER.exe
+C:\Users\Greg\Desktop\GEDITER\GEDITER\bin\Debug\GEDITER.pdb
+C:\Users\Greg\Desktop\GEDITER\GEDITER\obj\x86\Debug\GEDITER.Form1.resources
+C:\Users\Greg\Desktop\GEDITER\GEDITER\obj\x86\Debug\GEDITER.Properties.Resources.resources
+C:\Users\Greg\Desktop\GEDITER\GEDITER\obj\x86\Debug\GEDITER.Settings.resources
+C:\Users\Greg\Desktop\GEDITER\GEDITER\obj\x86\Debug\GEDITER.csproj.GenerateResource.Cache
+C:\Users\Greg\Desktop\GEDITER\GEDITER\obj\x86\Debug\GEDITER.exe
+C:\Users\Greg\Desktop\GEDITER\GEDITER\obj\x86\Debug\GEDITER.pdb
