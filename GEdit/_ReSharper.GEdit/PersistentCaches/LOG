@@ -1,5 +1,5 @@
-2015/04/20-17:37:38.159 edc Recovering log #3
-2015/04/20-17:37:38.159 edc Level-0 table #5: started
-2015/04/20-17:37:38.237 edc Level-0 table #5: 137502 bytes OK
-2015/04/20-17:37:38.331 edc Delete type=0 #3
-2015/04/20-17:37:38.331 edc Delete type=3 #2
+2015/04/25-17:02:48.371 928 Recovering log #6
+2015/04/25-17:02:48.379 928 Level-0 table #8: started
+2015/04/25-17:02:48.486 928 Level-0 table #8: 1235575 bytes OK
+2015/04/25-17:02:48.588 928 Delete type=0 #6
+2015/04/25-17:02:48.589 928 Delete type=3 #4

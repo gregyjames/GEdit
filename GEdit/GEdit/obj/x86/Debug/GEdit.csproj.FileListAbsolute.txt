@@ -9,3 +9,10 @@ C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\obj\x86\Debug\GEdit.exe
 C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\obj\x86\Debug\GEdit.pdb
 C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\obj\x86\Debug\GEdit.Run.resources
 C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\obj\x86\Debug\GEDITER.Theme.resources
+C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\obj\x86\Debug\GEdit.csprojResolveAssemblyReference.cache
+C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\bin\Debug\ConsoleControl.dll
+C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\bin\Debug\ConsoleControlAPI.dll
+C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\bin\Debug\ConsoleControl.pdb
+C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\bin\Debug\ConsoleControl.xml
+C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\bin\Debug\ConsoleControlAPI.pdb
+C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\bin\Debug\ConsoleControlAPI.xml

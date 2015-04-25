@@ -132,4 +132,7 @@
   <data name="Settings_button3_Click_Error_loading_file_">
     <value xml:space="preserve">Error loading file!</value>
   </data>
+  <data name="Theme_button7_Click_Error_">
+    <value xml:space="preserve">Error!</value>
+  </data>
 </root>

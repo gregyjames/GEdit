@@ -60,7 +60,7 @@ namespace GEDITER
                 pictureBox1.BackColor = Color.FromArgb(myObject.R1, myObject.G1, myObject.B1);
                 pictureBox2.BackColor = Color.FromArgb(myObject.R2, myObject.G2, myObject.B2);
                 pictureBox3.BackColor = Color.FromArgb(myObject.R3, myObject.G3, myObject.B3);
-                label1.Text = myObject.FontName;
+                //label1.Text = myObject.FontName;
                 label2.Text = myObject.FontSize;
 
                 myFileStream.Close();
@@ -71,16 +71,20 @@ namespace GEDITER
         {
             var SSettings = new settings
             {
+                //Foreground
                 R1 = pictureBox1.BackColor.R,
                 G1 = pictureBox1.BackColor.G,
                 B1 = pictureBox1.BackColor.B,
+                //Background
                 R2 = pictureBox2.BackColor.R,
                 G2 = pictureBox2.BackColor.G,
                 B2 = pictureBox2.BackColor.B,
+                //Line Highlight
                 R3 = pictureBox3.BackColor.R,
                 G3 = pictureBox3.BackColor.G,
                 B3 = pictureBox3.BackColor.B,
-                FontName = label1.Text,
+                
+                //FontName = label1.Text,
                 FontSize = label2.Text
             };
             var x = new XmlSerializer(SSettings.GetType());
@@ -134,7 +138,7 @@ namespace GEDITER
             }
             catch
             {
-                MessageBox.Show("Error!");
+                MessageBox.Show(Resources.Theme_button7_Click_Error_);
             }
         }
     }
@@ -151,6 +155,6 @@ public class settings
         public int R3 = 0;
         public int G3 = 0;
         public int B3 = 0;
-        public string FontName = "";
+        //public string FontName = "";
         public string FontSize = "0";
     }

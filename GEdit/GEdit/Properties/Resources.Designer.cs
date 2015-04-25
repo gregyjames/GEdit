@@ -113,5 +113,14 @@ namespace GEdit.Properties {
                 return ResourceManager.GetString("Texttab_Texttab_New_Tab", resourceCulture);
             }
         }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error!.
+        /// </summary>
+        internal static string Theme_button7_Click_Error_ {
+            get {
+                return ResourceManager.GetString("Theme_button7_Click_Error_", resourceCulture);
+            }
+        }
     }
 }
