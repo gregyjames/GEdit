@@ -41,6 +41,8 @@ namespace GEdit
                     (FastColoredTextBoxNS.FastColoredTextBox)tabControl1.SelectedTab.Controls["textbox"];
                 selectedRtb.Text = sr.ReadToEnd();
 
+                sr.Close();
+
                 tabControl1.SelectedTab.Text = op.FileName;
             }
             catch
@@ -57,20 +59,30 @@ namespace GEdit
             var selectedRtb =
                 (FastColoredTextBoxNS.FastColoredTextBox)tabControl1.SelectedTab.Controls["textbox"];
 
-            try
-            {
+            //try
+            //{
                 if (File.Exists(tabControl1.SelectedTab.Text))
                 {
-                    File.WriteAllText(tabControl1.SelectedTab.Text, selectedRtb.Text);
+                    //var x = 
+                    System.IO.StreamWriter file = new System.IO.StreamWriter(tabControl1.SelectedTab.Text);
+                    file.WriteLine(selectedRtb.Text);
+
+                    file.Close();
+                    //File.WriteAllText(tabControl1.SelectedTab.Text, selectedRtb.Text);
+                    
                 }
                 else
                 {
                     var sf = new SaveFileDialog();
                     sf.ShowDialog();
                     tabControl1.SelectedTab.Text = sf.FileName;
+                    System.IO.StreamWriter file = new System.IO.StreamWriter(tabControl1.SelectedTab.Text);
+                    file.WriteLine(selectedRtb.Text);
+
+                    file.Close();
                 }
-            }
-            catch { }
+            //}
+            //catch { }
         }
 
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
@@ -143,6 +155,20 @@ namespace GEdit
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        public TabControl TabControl1
+        {
+            get
+            {
+                return tabControl1;
+            }
+        }
+
+        private void runToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            var run = new Run();
+            run.Show();
         }
     }
 
