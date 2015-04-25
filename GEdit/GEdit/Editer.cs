@@ -4,7 +4,7 @@ using System.IO;
 using System.Windows.Forms;
 using System.Xml.Serialization;
 using GEdit.Properties;
-using Settings = GEDITER.Settings;
+using Settings = GEDITER.Theme;
 
 namespace GEdit
 {
@@ -59,12 +59,12 @@ namespace GEdit
             var selectedRtb =
                 (FastColoredTextBoxNS.FastColoredTextBox)tabControl1.SelectedTab.Controls["textbox"];
 
-            //try
-            //{
+            try
+            {
                 if (File.Exists(tabControl1.SelectedTab.Text))
                 {
                     //var x = 
-                    System.IO.StreamWriter file = new System.IO.StreamWriter(tabControl1.SelectedTab.Text);
+                    var file = new StreamWriter(tabControl1.SelectedTab.Text);
                     file.WriteLine(selectedRtb.Text);
 
                     file.Close();
@@ -76,13 +76,16 @@ namespace GEdit
                     var sf = new SaveFileDialog();
                     sf.ShowDialog();
                     tabControl1.SelectedTab.Text = sf.FileName;
-                    System.IO.StreamWriter file = new System.IO.StreamWriter(tabControl1.SelectedTab.Text);
+                    var file = new StreamWriter(tabControl1.SelectedTab.Text);
                     file.WriteLine(selectedRtb.Text);
 
                     file.Close();
                 }
-            //}
-            //catch { }
+            }
+            catch
+            {
+                MessageBox.Show(Resources.Editer_toolStripButton3_Click_Save_Error_);
+            }
         }
 
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
@@ -177,6 +180,44 @@ namespace GEdit
         private readonly FastColoredTextBoxNS.FastColoredTextBox _text = new FastColoredTextBoxNS.FastColoredTextBox();
         public string FILENAME = "";
 
+        private void _text_MouseUp(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Right)
+            {   
+                var contextMenu = new ContextMenu();
+                var menuItem = new MenuItem("Cut");
+                menuItem.Click += CutAction;
+                contextMenu.MenuItems.Add(menuItem);
+                menuItem = new MenuItem("Copy");
+                menuItem.Click += CopyAction;
+                contextMenu.MenuItems.Add(menuItem);
+                menuItem = new MenuItem("Paste");
+                menuItem.Click += PasteAction;
+                contextMenu.MenuItems.Add(menuItem);
+
+                _text.ContextMenu = contextMenu;
+            }
+        }
+
+        void CutAction(object sender, EventArgs e)
+        {
+            _text.Cut();
+        }
+
+        void CopyAction(object sender, EventArgs e)
+        {
+            Clipboard.SetData(DataFormats.Rtf, _text.Text);
+            Clipboard.Clear();
+        }
+
+        void PasteAction(object sender, EventArgs e)
+        {
+            if (Clipboard.ContainsText())
+            {
+                _text.Text += Clipboard.GetText(TextDataFormat.Text);
+            }
+        } 
+
         public Texttab()
         {
             if (File.Exists(@"settings.xml"))
@@ -186,24 +227,37 @@ namespace GEdit
                 var myFileStream = new FileStream("settings.xml", FileMode.Open);
 
                 var myObject = (settings)mySerializer.Deserialize(myFileStream);
-                var family = new FontFamily(myObject.FontName);
-
+                //var family = new FontFamily(myObject.FontName);
+                _text.MouseUp += _text_MouseUp;
                 _text.ForeColor = Color.FromArgb(myObject.R1, myObject.G1, myObject.B1);
                 _text.BackColor = Color.FromArgb(myObject.R2, myObject.G2, myObject.B2);
+                _text.CurrentLineColor = Color.FromArgb(myObject.R3, myObject.G3, myObject.B3);
+                //_text.Font = new Font(family, Convert.ToSingle(myObject.FontSize), FontStyle.Regular);
 
-                _text.Font = new Font(family, Convert.ToSingle(myObject.FontSize), FontStyle.Regular);
-                
+                myFileStream.Close();
+            }
+            else
+            {
+                var mySerializer = new XmlSerializer(typeof(settings));
+
+                var myFileStream = new FileStream(Directory.GetCurrentDirectory() + "\\Themes\\Default.xml", FileMode.Open);
+
+                var myObject = (settings)mySerializer.Deserialize(myFileStream);
+                _text.MouseUp += _text_MouseUp;
+                _text.ForeColor = Color.FromArgb(myObject.R1, myObject.G1, myObject.B1);
+                _text.BackColor = Color.FromArgb(myObject.R2, myObject.G2, myObject.B2);
+                _text.CurrentLineColor = Color.FromArgb(myObject.R3, myObject.G3, myObject.B3);
+
                 myFileStream.Close();
             }
 
             _text.Anchor = AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             _text.Name = "textbox";
             _text.Dock = DockStyle.Fill;
-            _text.CurrentLineColor = Color.LightGreen;
+            
             _text.CommentPrefix = "//";
             
             Controls.Add(_text);
-            //ImageIndex = 0;
             BackColor = Color.ForestGreen;
             Text = Resources.Texttab_Texttab_New_Tab;
         }

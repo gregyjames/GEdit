@@ -126,4 +126,10 @@
   <data name="Form1_toolStripButton2_Click_Pick_a_file_">
     <value xml:space="preserve">Pick a file!</value>
   </data>
+  <data name="Editer_toolStripButton3_Click_Save_Error_">
+    <value xml:space="preserve">Save Error!</value>
+  </data>
+  <data name="Settings_button3_Click_Error_loading_file_">
+    <value xml:space="preserve">Error loading file!</value>
+  </data>
 </root>

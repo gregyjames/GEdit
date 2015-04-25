@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<settings xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <R1>0</R1>
+  <G1>0</G1>
+  <B1>0</B1>
+  <R2>255</R2>
+  <G2>255</G2>
+  <B2>255</B2>
+  <R3>144</R3>
+  <G3>238</G3>
+  <B3>144</B3>
+  <FontName />
+  <FontSize>8.25</FontSize>
+</settings>

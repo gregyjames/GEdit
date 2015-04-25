@@ -61,6 +61,15 @@ namespace GEdit.Properties {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Save Error!.
+        /// </summary>
+        internal static string Editer_toolStripButton3_Click_Save_Error_ {
+            get {
+                return ResourceManager.GetString("Editer_toolStripButton3_Click_Save_Error_", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Confirm.
         /// </summary>
         internal static string Form1_tabControl1_MouseDown_Confirm {
@@ -84,6 +93,15 @@ namespace GEdit.Properties {
         internal static string Form1_toolStripButton2_Click_Pick_a_file_ {
             get {
                 return ResourceManager.GetString("Form1_toolStripButton2_Click_Pick_a_file_", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error loading file!.
+        /// </summary>
+        internal static string Settings_button3_Click_Error_loading_file_ {
+            get {
+                return ResourceManager.GetString("Settings_button3_Click_Error_loading_file_", resourceCulture);
             }
         }
         
