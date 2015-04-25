@@ -14,3 +14,5 @@ C:\Users\Greg\Desktop\GEDITER\GEDITER\obj\x86\Debug\GEDITER.Settings.resources
 C:\Users\Greg\Desktop\GEDITER\GEDITER\obj\x86\Debug\GEDITER.csproj.GenerateResource.Cache
 C:\Users\Greg\Desktop\GEDITER\GEDITER\obj\x86\Debug\GEDITER.exe
 C:\Users\Greg\Desktop\GEDITER\GEDITER\obj\x86\Debug\GEDITER.pdb
+C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\obj\x86\Debug\GEDITER.exe
+C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\obj\x86\Debug\GEDITER.pdb

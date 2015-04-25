@@ -1,0 +1,10 @@
+C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\bin\Debug\GEdit.exe
+C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\bin\Debug\GEdit.pdb
+C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\bin\Debug\FastColoredTextBox.dll
+C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\obj\x86\Debug\GEdit.About.resources
+C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\obj\x86\Debug\GEdit.Editer.resources
+C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\obj\x86\Debug\GEdit.Properties.Resources.resources
+C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\obj\x86\Debug\GEDITER.Settings.resources
+C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\obj\x86\Debug\GEdit.csproj.GenerateResource.Cache
+C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\obj\x86\Debug\GEdit.exe
+C:\Users\Greg\Desktop\GEdit\GEdit\GEdit\obj\x86\Debug\GEdit.pdb
