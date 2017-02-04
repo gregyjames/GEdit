@@ -1,7 +1,8 @@
 # GEdit
 A hackable text editor written in c#.
 
-![alt tag](http://imgur.com/uYSj0WC)
+# Screenshot
+![alt tag](http://i.imgur.com/uYSj0WC.png)
 
 # Features
 
