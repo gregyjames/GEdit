@@ -1,18 +1,26 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEdit", "GEdit\GEdit.csproj", "{645651D6-D1D8-4EB8-8ADF-EDDA743C8899}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GEdit", "GEdit.csproj", "{FDC0813A-DB9E-4324-91C9-7C933428E2F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|x86 = Debug|x86
-		Release|x86 = Release|x86
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{645651D6-D1D8-4EB8-8ADF-EDDA743C8899}.Debug|x86.ActiveCfg = Debug|x86
-		{645651D6-D1D8-4EB8-8ADF-EDDA743C8899}.Debug|x86.Build.0 = Debug|x86
-		{645651D6-D1D8-4EB8-8ADF-EDDA743C8899}.Release|x86.ActiveCfg = Release|x86
-		{645651D6-D1D8-4EB8-8ADF-EDDA743C8899}.Release|x86.Build.0 = Release|x86
+		{FDC0813A-DB9E-4324-91C9-7C933428E2F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDC0813A-DB9E-4324-91C9-7C933428E2F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDC0813A-DB9E-4324-91C9-7C933428E2F2}.Debug|x64.ActiveCfg = Debug|x64
+		{FDC0813A-DB9E-4324-91C9-7C933428E2F2}.Debug|x64.Build.0 = Debug|x64
+		{FDC0813A-DB9E-4324-91C9-7C933428E2F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDC0813A-DB9E-4324-91C9-7C933428E2F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDC0813A-DB9E-4324-91C9-7C933428E2F2}.Release|x64.ActiveCfg = Release|x64
+		{FDC0813A-DB9E-4324-91C9-7C933428E2F2}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
