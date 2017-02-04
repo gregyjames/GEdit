@@ -17,3 +17,5 @@ C:\Users\Greg\Desktop\GEdit2ReSkin\GEdit\obj\x64\Release\GEdit.Settings.resource
 C:\Users\Greg\Desktop\GEdit2ReSkin\GEdit\obj\x64\Release\GEdit.csproj.GenerateResource.Cache
 C:\Users\Greg\Desktop\GEdit2ReSkin\GEdit\obj\x64\Release\GEdit.exe
 C:\Users\Greg\Desktop\GEdit2ReSkin\GEdit\obj\x64\Release\GEdit.csprojResolveAssemblyReference.cache
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\bin\x64\Release\GEdit.exe.config
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\obj\x64\Release\GEdit.exe

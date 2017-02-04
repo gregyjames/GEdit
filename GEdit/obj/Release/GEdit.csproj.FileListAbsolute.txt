@@ -18,3 +18,24 @@ C:\Users\Greg\Desktop\GEdit2ReSkin\GEdit\obj\Release\GEdit.csproj.GenerateResour
 C:\Users\Greg\Desktop\GEdit2ReSkin\GEdit\obj\Release\GEdit.exe
 C:\Users\Greg\Desktop\GEdit2ReSkin\GEdit\obj\Release\GEdit.pdb
 C:\Users\Greg\Desktop\GEdit2ReSkin\GEdit\bin\Release\settings.json
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\bin\Release\GEdit.exe.config
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\obj\Release\GEdit.exe
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\obj\Release\GEdit.pdb
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\bin\Release\settings.json
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\bin\Release\GEdit.exe
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\bin\Release\GEdit.pdb
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\bin\Release\ConsoleControl.dll
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\bin\Release\ConsoleControlAPI.dll
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\bin\Release\FastColoredTextBox.dll
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\bin\Release\MaterialSkin.dll
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\bin\Release\Newtonsoft.Json.dll
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\bin\Release\ConsoleControl.pdb
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\bin\Release\ConsoleControl.xml
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\bin\Release\ConsoleControlAPI.pdb
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\bin\Release\ConsoleControlAPI.xml
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\bin\Release\Newtonsoft.Json.xml
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\obj\Release\GEdit.csprojResolveAssemblyReference.cache
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\obj\Release\GEdit.Editor.resources
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\obj\Release\GEdit.Properties.Resources.resources
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\obj\Release\GEdit.Settings.resources
+C:\Users\Greg\Desktop\Files\Git workspace\GEdit\GEdit\obj\Release\GEdit.csproj.GenerateResource.Cache

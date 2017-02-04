@@ -95,6 +95,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomTab.cs">
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="CustomText.cs">
       <SubType>UserControl</SubType>
     </Compile>
