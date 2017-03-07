@@ -5,8 +5,6 @@ A hackable text editor written in c#. Appeals to the keyboard shortcut poweruser
 ![alt tag](http://i.imgur.com/uYSj0WC.png)
 
 # How to use?
-Shortcuts:
-
 New Tab:      CTRL+T
 
 Save          CTRL+S
