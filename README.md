@@ -6,15 +6,25 @@ A hackable text editor written in c#. Appeals to the keyboard shortcut poweruser
 
 # How to use?
 Shortcuts:
+
 New Tab:      CTRL+T
+
 Save          CTRL+S
+
 Open          CTRL+O
+
 Console       CTRL+K
+
 Settings      CTRL+L
+
 Find          CTRL+F
+
 File Browser  CTRL+P
+
 Tab Forward:  CTRL+→
+
 Tab Backward: CTRL+←
+
 Help:         CTRL+H
 
 # Features
