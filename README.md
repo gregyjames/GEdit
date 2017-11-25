@@ -34,3 +34,9 @@ Run Commands
 Load online Files
 
 Dockable console window
+
+# Using
+1. ConsoleControl
+2. FastColoredTextBox
+3. MaterialSkin
+4. NewtonsoftJson
