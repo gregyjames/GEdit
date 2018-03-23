@@ -48,7 +48,6 @@ namespace GEdit
             }
         }
 
-
         public CustomText(settings mySettings)
         {
             MouseUp += _text_MouseUp;
@@ -57,8 +56,6 @@ namespace GEdit
             CurrentLineColor = System.Drawing.Color.FromArgb(mySettings.R3, mySettings.G3, mySettings.B3);
             float size = float.Parse(mySettings.FontSize, CultureInfo.InvariantCulture.NumberFormat);
             Font = new System.Drawing.Font(System.Drawing.FontFamily.GenericSansSerif, size);
-
-
             Anchor = AnchorStyles.Right | AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left;
             Name = "textbox";
             Dock = DockStyle.Fill;
