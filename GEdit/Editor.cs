@@ -39,7 +39,6 @@ namespace GEdit
             skinmanager.AddFormToManage(this);
             skinmanager.Theme = MaterialSkinManager.Themes.DARK;
             skinmanager.ColorScheme = new ColorScheme(mySettings.Primary, mySettings.Primary, mySettings.Primary, mySettings.Accent, MaterialSkin.TextShade.WHITE);
-            
         }
 
         private void ListDirectory(TreeView treeView, string path)
@@ -77,7 +76,6 @@ namespace GEdit
             if (materialTabControl1.TabCount != 1)
             {
                 materialTabControl1.TabPages.RemoveAt(materialTabControl1.SelectedIndex);
-
             }
         }
 
@@ -139,7 +137,9 @@ namespace GEdit
                         File.WriteAllText(saveFileDialog1.FileName, selectedRtb.Text, Encoding.UTF8);
                     }
                 }
-                catch { }
+                catch 
+                { 
+                }
             }
 
             if (materialTabControl1.SelectedIndex < materialTabControl1.TabPages.Count - 1)
@@ -167,7 +167,9 @@ namespace GEdit
                     tab.Text = attr;
                     materialTabSelector1.Refresh();
                 }
-                catch { }
+                catch
+                { 
+                }
             }
             if (e.Modifiers == Keys.Control && e.KeyCode == Keys.K)
             {
@@ -198,7 +200,9 @@ namespace GEdit
                     selectedRtb.Text = File.ReadAllText(((FolderFileNode)treeView1.SelectedNode)._path);
                 });
             }
-            catch { }
+            catch 
+            { 
+            }
         }
     }
 }
@@ -239,4 +243,3 @@ namespace GEdit
         }
     }
 }
-
