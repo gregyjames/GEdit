@@ -45,7 +45,6 @@ namespace GEdit
             else
             {
                 skinmanager.ColorScheme = new ColorScheme(mySettings.Primary, mySettings.Primary, mySettings.Primary, mySettings.Accent, MaterialSkin.TextShade.WHITE);
-
             }
         }
 
@@ -118,7 +117,7 @@ namespace GEdit
             FormCollection fc = Application.OpenForms;
             fc[0].Refresh();
         }
-    };
+    }
     }
     public class userSettings
     {
@@ -127,7 +126,6 @@ namespace GEdit
 
         public userSettings(Primary Main, Accent Secondary)
         {
-            
             Primary = Main;
             Accent = Secondary;
         }
@@ -136,4 +134,3 @@ namespace GEdit
     {
     }
 }
-
