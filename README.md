@@ -1,5 +1,5 @@
 # GEdit
-A hackable text editor written in c#. Appeals to the keyboard shortcut poweruser by eliminating the menu bar and having the whole app controled by shortcuts.
+A hackable text editor written in C#. Appeals to the keyboard shortcut poweruser by eliminating the menu bar and having the whole app controled by shortcuts.
 
 # Screenshot
 ![alt tag](http://i.imgur.com/uYSj0WC.png)
